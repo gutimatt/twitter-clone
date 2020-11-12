@@ -13,4 +13,5 @@ Navigate to the following folder in your terminal:
 pwj-twitter-clone-api-master
 api-exercise
 
-Run nodemon app.js This will start listening on your local port 3000
+Run nodemon app.js 
+This will start listening on your local port 3000
