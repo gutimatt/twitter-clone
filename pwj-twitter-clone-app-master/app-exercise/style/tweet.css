@@ -1,0 +1,87 @@
+.tweet-container{
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+    overflow: hidden;     
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+.tweet-image-container{
+    margin-top: 20px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.tweet-video-container{
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #1C1C1C;
+    border-radius: 20px;
+    overflow: hidden; 
+} 
+
+.tweet-video-container video{
+    height: 100%;
+    width: 100%;
+}
+
+.tweet-image {
+    background-image: url(https://images.unsplash.com/photo-1596358711484-0b2b0f2344ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60);
+    flex-basis: 50%;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.tweet-text-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.tweet-date-container{
+    font-size: 12px;
+    margin: 10px 20px 10px 20px;
+    color: #47525D;
+}
+
+.user-info-container{ 
+    color: #dadada;
+    display: flex;
+    margin: 10px 20px 10px 20px;
+}
+
+.tweet-user-profile{
+    width: 45px;
+    height: 45px; 
+    border-radius: 50%;
+    border: 1px solid #979797; 
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.tweet-username-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tweet-username{
+    font-size: 16px;
+}
+
+.tweet-userhandle{
+    font-size: 14px;
+}
+ 
