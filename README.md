@@ -2,16 +2,20 @@
 
 This pulls data from twitter using their API to find most recent post based on a search
 
+Warning: Since Version 2 from Twitter API, this repo api has been deprecated.
+
+## What I Learned 
+* Twitter version 1 API
+* Fromatting different mediums from json response into front end.  Examples include text, video, and images.
+
 ## Initalization
 
-Clone the repository into a folder
+Run the server: 
 
-git clone https://github.com/gutimatt/twitter-clone.git
-Install NodeJS from this LINK if you do not already have it
-
-Navigate to the following folder in your terminal: 
-pwj-twitter-clone-api-master
-api-exercise
-
-Run nodemon app.js 
+```
+cd pwj-twitter-clone-api-master
+cd api-exercise
+npm install
+nodemon app.js
+```
 This will start listening on your local port 3000
