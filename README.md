@@ -8,6 +8,10 @@ Warning: Since Version 2 from Twitter API, this repo api has been deprecated.
 * Twitter version 1 API
 * Fromatting different mediums from json response into front end.  Examples include text, video, and images.
 
+## Future Implementations
+* Connect to Twitter v2
+* Error handling
+
 ## Initalization
 
 Run the server: 
